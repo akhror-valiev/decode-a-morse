@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Space Travelers' Hub] <a name="about-project"></a>
+# 📖 [Decode a Morse code message] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -90,10 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features" />
 
-- **Add**
-- **Subtract**
-- **Multiply**
-- **divsion**
+- **Convert morse code to letter**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
