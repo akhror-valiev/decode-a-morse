@@ -8,21 +8,21 @@ def decode_char(char)
     'U' => '..-', 'V' => '...-', 'W' => '.--', 'X' => '-..-',
     'Y' => '-.--', 'Z' => '--..'
   }
-  return morse_dict.key(char)
+  morse_dict.key(char)
 end
 
 def decode_word(word)
   letters = word.split
-  newArr = []
-  letters.each { |letter| newArr.insert(newArr.length, decode_char(letter)) }
-  return newArr.join
+  newarr = []
+  letters.each { |letter| newarr.insert(newarr.length, decode_char(letter)) }
+  newarr.join
 end
 
 def decode_message(msg)
   arr = msg.split('  ')
-  newArr = []
-  arr.each { |word| newArr.insert(newArr.length, decode_word(word)) }
-  return newArr.join(' ')
+  newarr = []
+  arr.each { |word| newarr.insert(newarr.length, decode_word(word)) }
+  newarr.join(' ')
 end
 
 puts decode_message '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
